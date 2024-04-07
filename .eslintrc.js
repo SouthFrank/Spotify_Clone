@@ -12,6 +12,10 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
+  extends: [
+    ...,
+    "prettier",
+  ],
   rules: {
     'max-len': 0,
     'no-param-reassign': 0,
