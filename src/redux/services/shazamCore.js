@@ -13,4 +13,6 @@ const options = {
     .then(response => console.log(response))
     .catch(err => console.error(err));
 
-    export const shazamCoreApi = 
+    export const shazamCoreApi = createApi({
+      reducerPath: 'shazamCoreApi',
+    })
